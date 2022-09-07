@@ -55,6 +55,20 @@ Conversion from OneWheel battery balance connector to standard 15S JST connector
 
 ![](15s_jst/PCB_onewheel_15s_jst.png)
 
+## OneWheel - Battery Pack schematics
+Overview, BMS connector (battery pack side), XT-60 connector, and Pint/XR+ battery pack layouts.
+https://imgur.com/a/Sif7Wlo
+Note : Each pack has 4 10k NTC Thermistors placed in-between cells for temperature monitoring.
+
+=============== Part Number / Links Below ===============
+XR+ Batteries : https://www.imrbatteries.com/samsung-30q-18650-3000mah-15a-battery/
+Pint Batteries : https://www.imrbatteries.com/sony-vtc5d-18650-2600mah-25a-battery/
+BMS Connector (PCB Side) : https://www.digikey.com/product-detail/en/jst-sales-america-inc/BM26B-ZPDSS-TF(LF)(SN)/455-2548-6-ND/2472626
+BMS Connector (Battery Pack) : https://www.digikey.com/product-detail/en/jst-sales-america-inc/ZPDR-26V-S/455-2536-ND/2472569
+BMS Connector Pins : https://www.digikey.com/product-detail/en/jst-sales-america-inc/SZPD-002T-P0.3/455-2539-1-ND/2472595
+10k NTC Thermistors : https://www.digikey.com/catalog/en/partgroup/ntcle413/11021
+
+
 ## BOM
 * 1x `SM26B-ZPDSS-TF(LF)(SN)`
   * this is the same connector as on OneWheel BMS, but side entry version
@@ -65,6 +79,8 @@ Conversion from OneWheel battery balance connector to standard 15S JST connector
 * 1x `JST XH-16AW`
   * 15S balance connector, side entry, latch on top
   * [https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_BOOMELE-Boom-Precision-Elec-XH-6AW_C146117.html](https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_BOOMELE-Boom-Precision-Elec-XH-6AW_C146117.html)
+
+
 
 ## Revisions
 * v1.0
